@@ -10,27 +10,32 @@ export function HeroSection() {
       <div className="flex flex-col-reverse lg:flex-row items-center lg:items-start justify-between gap-16 z-10 w-full mb-12">
         <div className="max-w-3xl">
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
             className="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-tight mb-8"
           >
-            I don’t just design screens.<br />
-            I build products that actually <span className="text-accent-orange italic">work.</span>
+            I don’t just design interfaces —<br />
+            I build systems out of <span className="text-accent-orange italic">chaos.</span>
           </motion.h1>
 
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            className="max-w-xl mb-12"
+            transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
+            className="max-w-xl mb-12 flex flex-col gap-4"
           >
-            <p className="text-lg md:text-xl text-ash mb-2 font-medium">
+            <p className="text-lg md:text-xl text-ash font-medium">
               <span className="text-offwhite">Shreyansh Dixit</span> — A Product Designer who can build.
             </p>
             <p className="text-lg md:text-xl text-ash">
-              I turn messy ideas into structured, usable, and deployable products.
+              I enjoy turning messy ideas into structured, usable products that actually work in real environments.
             </p>
+            <div className="pl-4 border-l border-[#333] mt-2">
+              <p className="text-base text-ash/80 italic">
+                "I’m not driven by perfect briefs or ideal conditions. I’m driven by messy problems — where nothing is structured and everything needs clarity."
+              </p>
+            </div>
           </motion.div>
 
           <motion.div

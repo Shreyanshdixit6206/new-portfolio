@@ -7,10 +7,13 @@ export function PersonalEdge() {
   return (
     <div className="flex flex-col">
       <SectionWrapper id="edge">
-        <div className="max-w-4xl mx-auto text-center border-y border-[#333] py-24">
+        <div className="max-w-4xl mx-auto text-center border-y border-[#333] py-24 px-4">
           <h2 className="font-display text-5xl md:text-6xl font-bold mb-8 text-white">Why I'm Different</h2>
-          <p className="font-display text-2xl md:text-3xl text-ash leading-relaxed mb-12">
-            I am not a traditional B.Tech CSE student grinding DSA on LeetCode. I don't just deliver a Figma file and step away. I own the core problem from the first wireframe to the final deployment.
+          <p className="font-display text-2xl md:text-3xl text-ash leading-relaxed mb-6">
+            I bring more than just visual design — I focus on understanding what actually needs to be built.
+          </p>
+          <p className="text-xl md:text-2xl text-ash/80 italic mb-12 max-w-3xl mx-auto">
+            "I’m comfortable working in environments where nothing is predefined — and turning that into structure."
           </p>
           <p className="font-mono text-lg text-accent-green uppercase tracking-widest">
             Product thinking. Design execution. Production code.

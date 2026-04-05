@@ -20,7 +20,7 @@ const experiences: ExperienceData[] = [
     role: "Incubation Trainee",
     company: "Centre For Medical Innovation, GIMS",
     period: "Feb 2026 — Present",
-    story: "Walked into a chaotic environment of 10+ health-tech startups with zero legacy systems. Brought order to the noise by designing structured presentation formats and digital creatives, resulting in a 25% boost in engagement.",
+    story: "Walked into a chaotic environment of 10+ health-tech startups. I independently identified gaps in workflows and proposed structured solutions, taking initiative beyond my role to build presentation formats and digital creatives that boosted engagement by 25%.",
     rotation: -2,
   },
   {
@@ -56,11 +56,11 @@ export function Experience() {
         {experiences.map((exp, idx) => (
           <motion.div 
             key={idx} 
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6, delay: idx * 0.2 }}
-            whileHover={{ y: -5, scale: 1.01, rotate: 0 }}
+            transition={{ duration: 0.8, delay: idx * 0.2, ease: "easeOut" }}
+            whileHover={{ y: -2, scale: 1.01, rotate: 0, transition: { duration: 0.4, ease: "easeOut" } }}
             style={{ rotate: exp.rotation }}
             className={`
               relative bg-[#0d0d0d] border border-[#222] p-8 md:p-10 shadow-2xl

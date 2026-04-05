@@ -11,8 +11,9 @@ export function BuilderSide() {
           <h2 className="font-display text-4xl md:text-5xl lg:text-5xl font-bold mb-4 leading-tight">
             I Design.<br />I Prototype.<br />I Ship.
           </h2>
-          <p className="text-ash text-xl max-w-2xl mt-4">
-            I don’t hand off files and disappear. I build the bridge between the canvas and deployment by leveraging AI coding and automation.
+          <p className="text-ash text-xl max-w-2xl mt-4 flex flex-col gap-2">
+            <span>I can take an idea from Figma to a working product and deploy it when needed.</span>
+            <span>I use code as a tool to validate ideas, not just to implement them.</span>
           </p>
         </div>
         <Terminal className="w-16 h-16 text-[#333] hidden md:block" />
