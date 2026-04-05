@@ -56,7 +56,7 @@ export function HeroSection() {
             </a>
             
             <div className="flex gap-4">
-              <a href="https://github.com/shreyanshdixit" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-4 border border-[#333] hover:border-offwhite hover:text-offwhite transition-colors text-ash">
+              <a href="https://github.com/Shreyanshdixit6206" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-4 border border-[#333] hover:border-offwhite hover:text-offwhite transition-colors text-ash">
                 <Code2 className="w-4 h-4" /> GitHub
               </a>
               <a href="https://www.linkedin.com/in/shreyansh-dixit-a70717355" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-4 border border-[#333] hover:border-offwhite hover:text-offwhite transition-colors text-ash">
