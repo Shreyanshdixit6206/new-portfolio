@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-obsidian: #0A0A0A;
+  --color-graphite: #141414;
+  --color-offwhite: #EDEDED;
+  --color-ash: #8E8E8E;
+  --color-accent-orange: #FF5A00;
+  --color-accent-green: #00E5FF;
+  
+  --font-sans: var(--font-geist-sans);
+  --font-display: var(--font-space-grotesk);
+  --font-mono: var(--font-ibm-plex-mono);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-obsidian);
+    color: var(--color-offwhite);
+  }
+}
+
+@layer utilities {
+  .grid-bg {
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-position: center top;
+  }
+}
