@@ -34,12 +34,12 @@ export function PersonalEdge() {
             <a href="mailto:shreyanshdixit6206@gmail.com" className="bg-white text-black px-12 py-6 font-bold hover:scale-105 transition-transform flex items-center justify-center gap-4">
               Drop me an email <MoveRight className="w-5 h-5" />
             </a>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
               <a href="https://github.com/shreyanshdixit" target="_blank" rel="noreferrer" className="flex items-center justify-center px-8 py-6 border border-[#333] text-ash group-hover:border-[#050505] group-hover:text-[#050505] transition-colors hover:bg-[#050505] hover:text-white">
                 Inspect the Code
               </a>
-              <a href="https://drive.google.com/file/d/1eFv4VXgBThqJaTqhGdt54HTxmrLlMpnd/view?usp=sharing" target="_blank" rel="noreferrer" className="flex items-center justify-center px-8 py-6 border border-[#333] text-ash group-hover:border-[#050505] group-hover:text-[#050505] transition-colors hover:bg-[#050505] hover:text-white">
+              <a href="https://drive.google.com/file/d/1QboM0PM15xVvklo6ee3AEQha9h-goaO7/view?usp=drive_link" target="_blank" rel="noreferrer" className="flex items-center justify-center px-8 py-6 border border-[#333] text-ash group-hover:border-[#050505] group-hover:text-[#050505] transition-colors hover:bg-[#050505] hover:text-white">
                 Read the Resume
               </a>
             </div>
