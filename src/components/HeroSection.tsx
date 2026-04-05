@@ -59,7 +59,7 @@ export function HeroSection() {
               <a href="https://github.com/shreyanshdixit" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-4 border border-[#333] hover:border-offwhite hover:text-offwhite transition-colors text-ash">
                 <Code2 className="w-4 h-4" /> GitHub
               </a>
-              <a href="https://linkedin.com/in/shreyanshdixit" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-4 border border-[#333] hover:border-offwhite hover:text-offwhite transition-colors text-ash">
+              <a href="https://www.linkedin.com/in/shreyansh-dixit-a70717355" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-4 border border-[#333] hover:border-offwhite hover:text-offwhite transition-colors text-ash">
                 <Network className="w-4 h-4" /> LinkedIn
               </a>
             </div>
