@@ -20,7 +20,7 @@ const experiences: ExperienceData[] = [
     role: "Incubation Trainee",
     company: "Centre For Medical Innovation, GIMS",
     period: "Feb 2026 — Present",
-    story: "Walked into a chaotic environment of 10+ health-tech startups. I independently identified gaps in workflows and proposed structured solutions, taking initiative beyond my role to build presentation formats and digital creatives that boosted engagement by 25%.",
+    story: "Walked into a chaotic environment of 10+ health-tech startups. This wasn’t assigned work — I identified gaps and took initiative to improve systems and workflows, building formats that boosted engagement by 25%.",
     rotation: -2,
   },
   {

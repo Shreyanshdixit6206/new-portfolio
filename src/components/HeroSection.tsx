@@ -29,11 +29,14 @@ export function HeroSection() {
               <span className="text-offwhite">Shreyansh Dixit</span> — A Product Designer who can build.
             </p>
             <p className="text-lg md:text-xl text-ash">
-              I enjoy turning messy ideas into structured, usable products that actually work in real environments.
+              I focus on designing and building systems that improve how people actually work.
             </p>
-            <div className="pl-4 border-l border-[#333] mt-2">
+            <div className="pl-4 border-l border-[#333] mt-2 flex flex-col gap-2">
+              <p className="text-base text-ash/80">
+                Currently working on real-world systems at CMI, improving workflows and building usable interfaces.
+              </p>
               <p className="text-base text-ash/80 italic">
-                "I’m not driven by perfect briefs or ideal conditions. I’m driven by messy problems — where nothing is structured and everything needs clarity."
+                "I enjoy working on messy problems where clarity needs to be created from scratch."
               </p>
             </div>
           </motion.div>

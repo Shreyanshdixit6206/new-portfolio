@@ -13,7 +13,7 @@ export function BuilderSide() {
           </h2>
           <p className="text-ash text-xl max-w-2xl mt-4 flex flex-col gap-2">
             <span>I can take an idea from Figma to a working product and deploy it when needed.</span>
-            <span>I use code as a tool to validate ideas, not just to implement them.</span>
+            <span>I use code as a tool to validate ideas quickly and iterate based on real usage.</span>
           </p>
         </div>
         <Terminal className="w-16 h-16 text-[#333] hidden md:block" />
